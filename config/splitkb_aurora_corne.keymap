@@ -58,9 +58,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB          &kp LS(N1)           &kp LS(NUMBER_2)      &kp LS(POUND)          &kp LS(DOLLAR)  &kp LS(PERCENT)     &kp NB_N7  &kp NB_N8  &kp NB_N9  &trans         &Hold_Tap_KP EQUAL LS(N0)  &kp DELETE
-&kp LEFT_SHIFT   &kp LS(N6)           &kp LS(NUMBER_7)      &kp RA(NUMBER_2)       &kp LS(N8)      &kp LS(NUMBER_9)    &kp NB_N4  &kp NB_N5  &kp NB_N6  &trans         &trans                     &kp NB_UMLAUT
-&kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp RA(N7)      &kp RA(NUMBER_0)    &kp NB_N1  &kp NB_N2  &kp NB_N3  &kp NB_PERIOD  &trans                     &trans
+&kp TAB          &kp LS(N1)           &kp LS(NUMBER_2)      &kp LS(POUND)          &kp LS(DOLLAR)  &kp LS(PERCENT)     &kp NB_N7  &kp NB_N8  &kp NB_N9  &trans         &Hold_Tap_KP NB_PLUS LS(N0)  &kp DELETE
+&kp LEFT_SHIFT   &kp LS(N6)           &kp LS(NUMBER_7)      &kp RA(NUMBER_2)       &kp LS(N8)      &kp LS(NUMBER_9)    &kp NB_N4  &kp NB_N5  &kp NB_N6  &trans         &kp EQUAL                    &kp NB_UMLAUT
+&kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp RA(N7)      &kp RA(NUMBER_0)    &kp NB_N1  &kp NB_N2  &kp NB_N3  &kp NB_PERIOD  &trans                       &trans
                                                             &kp LGUI               &trans          &kp SPACE           &kp NB_N0  &trans     &trans
             >;
         };
