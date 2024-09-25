@@ -45,7 +45,7 @@
         Change_Q: Change_Q {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp NB_E>;
+            bindings = <&kp LA(NB_E)>;
             label = "CHANGE_Q";
         };
     };
